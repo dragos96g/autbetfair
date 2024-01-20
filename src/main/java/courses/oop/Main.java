@@ -35,5 +35,14 @@ public class Main {
         Teacher teacher = new Teacher("Maria Ionescu", "211222567896543", PersonSex.FEMININ, "2", "Math");
         System.out.println(student);
         System.out.println(teacher);
+        Shape shapePol1 = new Shape();
+        Shape shapePol2 = new Square("RED");
+        Shape shapePol3 = new Triangle();
+
+        shapePol1.draw();
+        shapePol2.draw();
+        shapePol3.draw();
+
+        Shape shapeCircle = new Circle();
     }
 }
